@@ -1,0 +1,84 @@
+/*body{ background-color: pink;    /*--element or tag selector--*/
+
+}
+
+.hero{
+
+    background-color: yellow;   /*class selector*/
+}
+/*
+#about-section{
+    background-color: green;/*ID selector not advisable. This is used for anchor tags*/ 
+
+}
+/*
+header a{
+
+    color:blue ; /* descendant selector*/
+}
+/*
+.navlist-item>a{
+    color: red;
+
+
+}
+
+.nav-items> .services-prices > /* > is direct child selector*/
+{
+    color: greenyellow;
+}
+
+
+a[href="#services-prices"]{  /*attribute selector */
+    color: orange;
+}
+
+
+header[class="main-header"]{
+    background: rgba(255, 255, 0, 1) !important;
+
+    background-color: salmon;
+}
+
+:root{ /*root is a global variable*/
+    --link-color:green; /*variable declaration*/
+}
+
+a {
+    color:var(--link-color);
+}
+
+.main-header{
+
+    --link-color: blue;
+}
+
+
+
+
+.nav-item a:hover{
+    color: purple;
+    /*cursor:crosshair;*/
+    cursor: help;
+
+}
+.nav-item a:focus{
+    color: red;
+    /*cursor:crosshair;*/
+    cursor: help;
+    
+}
+button:focus{
+    background-color:maroon ;
+}
+
+footer>a{   /*direct descendant of a tag selector or element selector*/
+
+    --link-color: blue;
+}
+
+.footer>.ankle{  /*direct descendant of a class selector*/
+
+--link-color:purple;
+}
+
